@@ -1,0 +1,124 @@
+*{
+padding: 0;
+margin: 0;
+}
+.bill{
+    height: 100vh;
+    width: 100%;
+    background-color: #C5E4E7;
+    float: inline-end;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: #FFFFFF;
+    margin: 60px auto 0 auto;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.input{
+    /* background-color: blueviolet; */
+    padding: 20px;
+    margin: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.input .num h6{
+    color: #9AA6A6;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.input .num input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #F3F8FB;
+}
+.input .tip .buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input .tip h6{
+    /* margin-left: 5px; */
+}
+.input .tip h6{
+    color: #9AA6A6;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.input .tip .buttons button{
+    width: 79.34px;
+    margin:5px 5px 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input .tip .buttons .percentage{
+    background-color: #00474B;
+    color: white;
+    border: none;
+}
+.input .tip .buttons .custom{
+    background-color: #F3F8FB;
+    color: #00474B;
+    border: none;
+}
+.input .people h6{
+    color: #9AA6A6;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.input .people input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #F3F8FB;
+}
+.output{
+    background-color: #00474B;
+    padding: 20px;
+    margin: 15px;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.amount{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.amount h6 {
+    padding: 5px;
+    color: white;
+}
+.amount h6 .person{
+    font-size: 12px;
+}
+.amount p{
+    font-size: 40px;
+    color: #2BC3AE;
+}
+.output .reset button{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font: caption;
+    margin-bottom: 10px;
+    background-color:  #0D686D;
+}
+
